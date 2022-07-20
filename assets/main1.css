@@ -1,0 +1,235 @@
+@font-face {
+    font-family: BlackRocker; 
+    src: url(../../uploads/BlackRocker.ttf); 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    color:#7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.good{
+    border-style: solid;
+    border-color:  black;
+    border-width: 1%;
+    position: relative;
+    width: 24%;
+    height: 15%;
+    z-index: 100;
+    display: flex;
+    margin: 1%;
+
+}
+.goodinfo{
+    background-color: rgba(0, 0, 0, 0.5);
+    top :0;
+    color:white;
+    position: absolute;
+    z-index :110;
+    font-size: 175%;
+    text-align: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.good:hover .goodinfo{
+transition: 0.8s;
+opacity: 1;
+top: 0%;
+}
+.gogo{
+    margin-top: 10%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+
+}
+.gogo>a{
+    width: 30%;
+    margin: 5%;
+}
+
+
+.header{
+    background-color:black;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.top_header{
+    align-items: center;
+}
+.setting{
+    position: absolute;
+    width:5%;
+    right: 0;
+}
+.faq{
+    padding-left: 15%;
+    padding-top: 1%;
+}
+.inffaq{
+    display: inline-flex;
+
+
+}
+.logo{
+    color: white;
+    margin-top: 0.5%;
+    font-family:BlackRocker;
+    font-size: 175%;
+    
+
+}
+
+.login{
+    color: white;
+    position: absolute;
+    display: flex;
+    right: 0%;
+
+    
+
+
+}
+
+.faq>a{
+    color:white;
+    opacity: 1;
+}
+.men>a{
+    color:white;
+}
+.nav {
+    padding-left: 1%;
+    padding-right: 1%;
+    color:white;
+    padding-bottom: 1%;
+    display:inline-flex;
+}
+.faqhead{
+    align-items: center;
+
+}
+.faqic{
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-around;
+}
+.men{
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#about{
+    margin-top: 1%;
+    font-size: 125%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.botfaq{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 10%;
+
+}
+.logotip {
+    display: inline-flex;
+    align-items: center;
+    
+
+}
+.logotip>.logo{
+    font-size: 200%;
+
+
+}
+.botfaq2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+
+}
+.botfaq2>a{
+    color:white;
+    margin-left: 10%;
+    
+}
+
+
+
+
+
